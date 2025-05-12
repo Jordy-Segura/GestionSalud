@@ -8,21 +8,15 @@ package ec.edu.espoch.gestioncentrosalud;
  *
  * @author SO-LAB1-PC20
  */
-public class PacienteGeneral extends Paciente {
+public class PacienteHospitalizado extends Paciente {
 
-    public PacienteGeneral(String nombre, int edad, String cedula) {
+    public PacienteHospitalizado(String nombre, int edad, String cedula) {
         super(nombre, edad, cedula);
-    }
-
-    public String GetTipo() {
-        return "Consulta General";
-   
-    
     }
 
     @Override
     public String getTipo() {
-     return "Consulta General";   
-    
+        return "Paciente Hospitalizado";
+
     }
 }
