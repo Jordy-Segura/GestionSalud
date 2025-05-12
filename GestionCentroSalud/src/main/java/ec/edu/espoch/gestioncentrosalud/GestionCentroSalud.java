@@ -11,6 +11,6 @@ package ec.edu.espoch.gestioncentrosalud;
 public class GestionCentroSalud {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+       
     }
 }
