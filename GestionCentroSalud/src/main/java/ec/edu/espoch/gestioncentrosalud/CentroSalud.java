@@ -63,7 +63,7 @@ public class CentroSalud {
         System.out.println("\n=== Reporte Final de Pacientes Atendidos ===");
         for (Paciente p : listaAtendidos) {
             System.out.println(p);
-        }
-    }
+        }
+    }
  
 }

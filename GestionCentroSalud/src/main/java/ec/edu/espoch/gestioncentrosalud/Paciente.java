@@ -42,6 +42,6 @@ public abstract class Paciente {
 
     @Override
     public String toString() {
-        return "ID: " + id + ", Nombre: " + nombre + ", Edad: " + edad + ", Cédula: " + cedula + ", Tipo: " + getTipo();
+        return "ID: " + id + ", Nombre: " + nombre + ", Edad: " + edad + ", Cedula: " + cedula + ", Tipo: " + getTipo();
     }
 }
